@@ -1,0 +1,33 @@
+/* *{
+  margin:0px;
+  padding: 0px;
+}
+ */
+ .card{
+    background: linear-gradient(rgba(12, 161, 63, 0.8), rgba(12, 161, 129, 0.95));
+  }
+
+  
+  button:hover{
+    background-image: linear-gradient( rgba(12, 161, 129, 0.95),rgba(12, 161, 63, 0.8));
+  }
+  
+  input.ng-invalid.ng-touched{
+    border: 1px solid red;
+  }
+  
+  .vertical-line {
+    border-right: 2px solid black; /* Create a vertical line on the right side */
+    /* height: 100%; Set the height of the line */
+    width: 1px; /* Set the width of the line */
+  }
+  
+  .truncate-cell {
+    max-width: 100%; /* Set a maximum width for the cell */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow:hidden; /* Hide overflowing text */
+    text-overflow: ellipsis;/*  Display an ellipsis (...) when text overflows */
+    /* word-wrap: break-word; */
+  }
+
+  

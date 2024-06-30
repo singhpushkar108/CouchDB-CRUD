@@ -1,0 +1,147 @@
+CRITICAL - 2024-05-07 06:16:47 --> GuzzleHttp\Exception\ClientException: Client error: `GET http://vmc_admin:***@localhost:5984/students/_design/viewStud/_view/students/_all_docs` resulted in a `405 Method Not Allowed` response:
+{"error":"method_not_allowed","reason":"Only GET,POST,HEAD allowed"}
+
+
+in FCPATH\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php on line 113.
+ 1 FCPATH\vendor\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 FCPATH\vendor\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 FCPATH\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Models\CouchModel.php(49): GuzzleHttp\Client->request('GET', 'students/_all_docs')
+12 APPPATH\Controllers\CouchApi.php(65): App\Models\CouchModel->getAllRecords()
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 06:19:16 --> GuzzleHttp\Exception\ClientException: Client error: `GET http://vmc_admin:***@localhost:5984/students/_design/viewStud/_view/students/_all_docs` resulted in a `405 Method Not Allowed` response:
+{"error":"method_not_allowed","reason":"Only GET,POST,HEAD allowed"}
+
+
+in FCPATH\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php on line 113.
+ 1 FCPATH\vendor\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 FCPATH\vendor\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 FCPATH\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Models\CouchModel.php(49): GuzzleHttp\Client->request('GET', 'students/_all_docs')
+12 APPPATH\Controllers\CouchApi.php(65): App\Models\CouchModel->getAllRecords()
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 06:20:06 --> GuzzleHttp\Exception\ClientException: Client error: `GET http://vmc_admin:***@localhost:5984/students/_design/viewStud/_view/students/_all_docs` resulted in a `405 Method Not Allowed` response:
+{"error":"method_not_allowed","reason":"Only GET,POST,HEAD allowed"}
+
+
+in FCPATH\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php on line 113.
+ 1 FCPATH\vendor\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 FCPATH\vendor\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 FCPATH\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Models\CouchModel.php(49): GuzzleHttp\Client->request('GET', 'students/_all_docs')
+12 APPPATH\Controllers\CouchApi.php(65): App\Models\CouchModel->getAllRecords()
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 06:22:33 --> GuzzleHttp\Exception\ClientException: Client error: `GET http://vmc_admin:***@localhost:5984/students/_design/viewStud/_view/students?include=true` resulted in a `404 Object Not Found` response:
+{"error":"not_found","reason":"missing_named_view"}
+
+
+in FCPATH\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php on line 113.
+ 1 FCPATH\vendor\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 FCPATH\vendor\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 FCPATH\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Models\CouchModel.php(50): GuzzleHttp\Client->request('GET', 'students?include=true')
+12 APPPATH\Controllers\CouchApi.php(65): App\Models\CouchModel->getAllRecords()
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 06:22:45 --> GuzzleHttp\Exception\ClientException: Client error: `GET http://vmc_admin:***@localhost:5984/students/_design/viewStud/_view/students` resulted in a `404 Object Not Found` response:
+{"error":"not_found","reason":"missing_named_view"}
+
+
+in FCPATH\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php on line 113.
+ 1 FCPATH\vendor\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 FCPATH\vendor\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 FCPATH\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Models\CouchModel.php(50): GuzzleHttp\Client->request('GET', 'students')
+12 APPPATH\Controllers\CouchApi.php(65): App\Models\CouchModel->getAllRecords()
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 06:27:37 --> GuzzleHttp\Exception\ClientException: Client error: `GET http://vmc_admin:***@localhost:5984/students/_design/viewStud/_view/students/5a5041e9ce41e4a50fa027172600dd82` resulted in a `405 Method Not Allowed` response:
+{"error":"method_not_allowed","reason":"Only GET,POST,HEAD allowed"}
+
+
+in FCPATH\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php on line 113.
+ 1 FCPATH\vendor\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 FCPATH\vendor\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 FCPATH\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Models\CouchModel.php(60): GuzzleHttp\Client->request('GET', 'students/5a5041e9ce41e4a50fa027172600dd82')
+12 APPPATH\Controllers\CouchApi.php(65): App\Models\CouchModel->getAllRecords()
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-07 06:31:21 --> GuzzleHttp\Exception\ClientException: Client error: `GET http://vmc_admin:***@localhost:5984/students/_design/viewStud/_view/students/_all_docs` resulted in a `405 Method Not Allowed` response:
+{"error":"method_not_allowed","reason":"Only GET,POST,HEAD allowed"}
+
+
+in FCPATH\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php on line 113.
+ 1 FCPATH\vendor\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 FCPATH\vendor\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 FCPATH\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Models\CouchModel.php(49): GuzzleHttp\Client->request('GET', 'students/_all_docs')
+12 APPPATH\Controllers\CouchApi.php(65): App\Models\CouchModel->getAllRecords()
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,232 @@
+
+
+<div class="container-fluid">
+    <section id="body" class="row justify-content-center my-3 ">
+    
+        <div class="col-12 text-center d-flex align-items-center justify-content-center">
+            <div class="card px-3 text-success border-0 form-group" style="width: 30em;height : 30em;">
+                <div class="card-body  border rounded border-0 row">
+                   <form class="col-12 bg-white border rounded form-group pt-3" (ngSubmit)="insertData()" #f="ngForm"> 
+                        <h2 class="card-title fw-semibold fs-3 mt-2">Test Form</h2>
+                        <h4 class="card-subtitle mb-1 text-muted">CouchDB Demo</h4>
+                    
+                        <hr class="hr ">
+    
+                        <div class="row ">
+                        <div class="col-6 h-25">
+                            <input required 
+                            [(ngModel)]="first_name"
+                            name="first_name" 
+                            type="text" 
+                            class=" form-control mb-3 " 
+                            minlength="3"
+                            maxlength="50"
+                            placeholder="First Name"
+                            autofocus>
+    
+                        </div>
+                        
+                        <div class="col-6 h-25">
+                            <input required 
+                            [(ngModel)] = "last_name"
+                            name="last_name"
+                            type="text" 
+                            class="form-control mb-3 " 
+                            maxlength="50"
+                            placeholder="Last Name">
+                            <!-- <span class="mt-0 border border-warning help-block text-danger fw-lighter " style="font-size: smaller;" *ngIf="!last_name.valid && last_name.touched">Please Enter a value</span> -->
+    
+                        </div>
+                        
+                    </div>
+    
+    
+                        <div class="row">
+                            <div class="col-6 h-25">
+                                <input required 
+                                [(ngModel)] = "email"
+                                name="email" 
+                                type="email" 
+                                maxlength="100"
+                                class="form-control mb-3" 
+                                placeholder="Email">
+                            </div>
+
+                            <div class="col-6 h-25">
+                                <input required 
+                                [(ngModel)]= 'state'
+                                name="state" 
+                                type="text" 
+                                maxlength="100"
+                                class="form-control mb-3" 
+                                placeholder="State">
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-6 h-25">
+                                <input required 
+                                [(ngModel)] =age
+                                name="age" 
+                                type="number" 
+                                class="form-control mb-3" 
+                                placeholder="Enter your Age"
+                                 >
+                            </div>
+                            <div class="col-6 h-25">
+                                <input 
+                                required 
+                                [(ngModel)]="phone_number" 
+                                name="phone_number" 
+                                type="number" 
+                                class="form-control mb-3" 
+                                placeholder="Enter Phone Number" 
+                                minlength="8">
+                            </div>
+                        </div>
+            
+                        <div class="row text-center text-success fw-semibold" *ngIf="insSucc">
+                            Data Inserted Successfully
+                        </div>
+
+    
+                        <div class="row mt-3 w-100">
+                            <div class="col-4 ">
+                                <button type="submit" [disabled]= "!f.valid" class="btn btn-success text-warning mb-3">Insert Data</button>
+                            </div>
+                            
+                            <div></div>
+                        </div>
+    
+                    </form> 
+                </div>
+              </div>
+        </div>
+        
+        <hr class="hr m-3 border-2 border-black" >
+
+          <div class="col-12 ">
+            <table *ngIf="!noData" class="row ps-3" >
+                <thead>
+                    <tr class="d-flex align-items-center justify-content-between text-center border-black mb-3">
+                        <th *ngFor="let head of colDisplay" class="text-warning border-2 border-black w-100" >{{head}}</th>
+                        <th class="text-warning border-2 border-black w-100">Actions</th>
+                    </tr>   
+                </thead>
+                <tbody>
+                    <ng-container *ngIf="!noData">
+                        <tr *ngFor="let data of all_data" class="d-flex align-items-center justify-content-between text-center w-100 m-3">
+                          <td *ngFor="let col of colDisplay" class="truncate-cell w-100  text-white" value>
+
+                            <span *ngIf="data.hasOwnProperty(col)" class="truncate-content  w-100">{{ data[col] }}</span>
+                            <span *ngIf="!data.hasOwnProperty(col)" class="truncate-content w-100 ">null</span>
+                          </td>
+                          <td class="w-100 text-center ">
+                            <button type="button"  data-bs-toggle="modal" data-bs-target="#editModal" (click)="editRow(data)" class="  border rounded-3 me-2 bg-primary" style="width: 3em;"> Edit</button>
+                            <button type="button" class=" border rounded-3 ms-2 bg-danger" (click)="delete_data(data._id,data._rev)" style="width: 4em;">Delete</button>
+                          </td>
+                        </tr>
+                      </ng-container>
+                      <tr *ngIf="noData">
+                        <td >No data available</td>
+                      </tr>
+                </tbody>
+                
+            </table>
+          <!--   <div *ngIf="noData" class=" h-100 text-center d-flex flex-row align-items-center justify-content-center ">
+                No Data Available. Please add data to continue.
+            </div> -->
+          </div>
+
+          
+    </section> 
+</div>
+
+
+<!-- Add Bootstrap modal -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true" #editModal>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editModalLabel">Edit Data</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Modal content goes here -->
+          <!-- You can add form fields for editing data -->
+
+          <div *ngIf="rowData">
+            <!-- Display form fields for editing data -->
+            <!-- For example, display input fields with the current data -->
+            <div class="row">
+                <div class="col-6 h-25">
+                    <input required 
+                    [(ngModel)] =rowData.first_name
+                    name="first_name" 
+                    type="text" 
+                    class="form-control mb-3" 
+                    placeholder="First Name"
+                     >
+                </div>
+                <div class="col-6 h-25">
+                    <input required 
+                    [(ngModel)] =rowData.last_name
+                    name="last_name" 
+                    type="text" 
+                    class="form-control mb-3" 
+                    placeholder="Last Name"
+                     >
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 h-25">
+                    <input required 
+                    [(ngModel)] =rowData.email
+                    name="email" 
+                    type="text" 
+                    class="form-control mb-3" 
+                    placeholder="Enter Your Email"
+                     >
+                </div>
+                <div class="col-6 h-25">
+                    <input required 
+                    [(ngModel)] =rowData.state
+                    name="state" 
+                    type="text" 
+                    class="form-control mb-3" 
+                    placeholder="State"
+                     >
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 h-25">
+                    <input required 
+                    [(ngModel)] =rowData.age
+                    name="age" 
+                    type="number" 
+                    class="form-control mb-3" 
+                    placeholder="Age"
+                     >
+                </div>
+                <div class="col-6 h-25">
+                    <input required 
+                    [(ngModel)] =rowData.phone_number
+                    name="phone_number" 
+                    type="number" 
+                    class="form-control mb-3" 
+                    placeholder="Phone Number"
+                     >
+                </div>
+            </div>
+            <div class="row text-success text-center fw-semibold d-flex align-items-center justify-content-center" *ngIf="succ">Updation Success</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" (click)="update_data(rowData)">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>

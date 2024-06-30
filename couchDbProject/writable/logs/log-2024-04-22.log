@@ -1,0 +1,237 @@
+CRITICAL - 2024-04-22 10:19:19 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:20:39 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:21:03 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 75.
+ 1 APPPATH\Controllers\CouchApi.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:21:37 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 75.
+ 1 APPPATH\Controllers\CouchApi.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:21:44 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 75.
+ 1 APPPATH\Controllers\CouchApi.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:25:03 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:25:06 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:25:13 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:25:20 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:28:11 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:29:41 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:30:03 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:32:02 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:33:33 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:35:08 --> ErrorException: Undefined property: App\Controllers\CouchApi::$couchModel
+in APPPATH\Controllers\CouchApi.php on line 71.
+ 1 APPPATH\Controllers\CouchApi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\CouchApi::$couchModel', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:36:34 --> Error: Class "App\Models\Models" not found
+in APPPATH\Models\CouchModel.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\couchDbProject\\app\\Models\\CouchModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\CouchModel')
+ 4 APPPATH\Controllers\CouchApi.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\CouchModel')
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\CouchApi->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:37:20 --> Error: Class "GuzzleHttp\Client" not found
+in APPPATH\Models\CouchModel.php on line 15.
+ 1 APPPATH\Controllers\CouchApi.php(12): App\Models\CouchModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\CouchApi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:39:35 --> Error: Class "GuzzleHttp\Client" not found
+in APPPATH\Models\CouchModel.php on line 17.
+ 1 APPPATH\Controllers\CouchApi.php(12): App\Models\CouchModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\CouchApi->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:41:54 --> GuzzleHttp\Exception\ClientException: Client error: `GET http://localhost:5984/students_all_docs` resulted in a `404 Object Not Found` response:
+{"error":"not_found","reason":"Database does not exist."}
+
+
+in FCPATH\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php on line 113.
+ 1 FCPATH\vendor\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 FCPATH\vendor\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 FCPATH\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Models\CouchModel.php(47): GuzzleHttp\Client->request('GET', 'students_all_docs')
+12 APPPATH\Controllers\CouchApi.php(71): App\Models\CouchModel->getAllRecords()
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:42:42 --> GuzzleHttp\Exception\ClientException: Client error: `GET http://localhost:5984/students/_all_docs` resulted in a `401 Unauthorized` response:
+{"error":"unauthorized","reason":"You are not authorized to access this db."}
+
+
+in FCPATH\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php on line 113.
+ 1 FCPATH\vendor\guzzlehttp\guzzle\src\Middleware.php(72): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response), null, [], null)
+ 2 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(209): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+ 3 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(158): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), null)
+ 4 FCPATH\vendor\guzzlehttp\promises\src\TaskQueue.php(52): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+ 5 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(251): GuzzleHttp\Promise\TaskQueue->run(true)
+ 6 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(227): GuzzleHttp\Promise\Promise->invokeWaitFn()
+ 7 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(272): GuzzleHttp\Promise\Promise->waitIfPending()
+ 8 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(229): GuzzleHttp\Promise\Promise->invokeWaitList()
+ 9 FCPATH\vendor\guzzlehttp\promises\src\Promise.php(69): GuzzleHttp\Promise\Promise->waitIfPending()
+10 FCPATH\vendor\guzzlehttp\guzzle\src\Client.php(189): GuzzleHttp\Promise\Promise->wait()
+11 APPPATH\Models\CouchModel.php(47): GuzzleHttp\Client->request('GET', 'students/_all_docs')
+12 APPPATH\Controllers\CouchApi.php(71): App\Models\CouchModel->getAllRecords()
+13 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+14 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+15 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:44:11 --> ErrorException: Undefined variable $data
+in APPPATH\Models\CouchModel.php on line 50.
+ 1 APPPATH\Models\CouchModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Models\\CouchModel.php', 50)
+ 2 APPPATH\Controllers\CouchApi.php(71): App\Models\CouchModel->getAllRecords()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:46:41 --> ErrorException: Undefined property: App\Models\CouchModel::$baseUrl
+in APPPATH\Models\CouchModel.php on line 55.
+ 1 APPPATH\Models\CouchModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Models\\CouchModel::$baseUrl', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Models\\CouchModel.php', 55)
+ 2 APPPATH\Controllers\CouchApi.php(71): App\Models\CouchModel->getAllRecords()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:48:16 --> ErrorException: Undefined variable $data
+in APPPATH\Models\CouchModel.php on line 50.
+ 1 APPPATH\Models\CouchModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Models\\CouchModel.php', 50)
+ 2 APPPATH\Controllers\CouchApi.php(71): App\Models\CouchModel->getAllRecords()
+ 3 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->getAllData()
+ 4 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(90): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 13:18:38 --> ArgumentCountError: Too few arguments to function App\Models\CouchModel::delete_record(), 0 passed in C:\xampp\htdocs\couchDbProject\app\Controllers\CouchApi.php on line 100 and exactly 1 expected
+in APPPATH\Models\CouchModel.php on line 70.
+ 1 APPPATH\Controllers\CouchApi.php(100): App\Models\CouchModel->delete_record()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->deleterRecord()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 13:19:38 --> ArgumentCountError: Too few arguments to function App\Models\CouchModel::delete_record(), 0 passed in C:\xampp\htdocs\couchDbProject\app\Controllers\CouchApi.php on line 100 and exactly 1 expected
+in APPPATH\Models\CouchModel.php on line 70.
+ 1 APPPATH\Controllers\CouchApi.php(100): App\Models\CouchModel->delete_record()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->deleterRecord()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 13:20:12 --> ArgumentCountError: Too few arguments to function App\Models\CouchModel::delete_record(), 0 passed in C:\xampp\htdocs\couchDbProject\app\Controllers\CouchApi.php on line 100 and exactly 1 expected
+in APPPATH\Models\CouchModel.php on line 70.
+ 1 APPPATH\Controllers\CouchApi.php(100): App\Models\CouchModel->delete_record()
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->deleterRecord()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 17:36:44 --> ErrorException: Undefined array key "_rev"
+in APPPATH\Controllers\CouchApi.php on line 100.
+ 1 APPPATH\Controllers\CouchApi.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "_rev"', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->deleterRecord()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 19:14:19 --> ErrorException: Undefined array key "id"
+in APPPATH\Controllers\CouchApi.php on line 89.
+ 1 APPPATH\Controllers\CouchApi.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->updateRecord()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 19:15:00 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\CouchApi.php on line 90.
+ 1 APPPATH\Controllers\CouchApi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\couchDbProject\\app\\Controllers\\CouchApi.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\CouchApi->updateRecord()
+ 3 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CouchApi))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(97): CodeIgniter\CodeIgniter->run()
