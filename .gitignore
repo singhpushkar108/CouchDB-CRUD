@@ -1,0 +1,17 @@
+# Ignore node_modules directory
+/CouchdbFrontend/node_modules
+
+# Ignore npm's cache
+.npm
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore yarn's lock file
+yarn.lock
+
+# Ignore built files for npm or yarn
+/dist
+
+# Ignore .env file if you're using environment variables
+.env
